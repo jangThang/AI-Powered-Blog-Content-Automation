@@ -1,0 +1,29 @@
+{
+  "name": "starlog-public-demo",
+  "version": "1.0.0",
+  "description": "사진과 메모를 출처 기반 네이버 블로그 초안으로 정리하는 로컬 AI 스튜디오 공개 데모",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "heic2any": "^0.0.4",
+    "next": "16.3.0",
+    "pdfjs-dist": "^6.2.108",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "26.2.0",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
